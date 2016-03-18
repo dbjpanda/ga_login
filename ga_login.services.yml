@@ -1,0 +1,5 @@
+services:
+  ga_login.UserLoginRouteChange:
+    class: Drupal\ga_login\Routing\UserLoginRouteChange
+    tags:
+      - { name: event_subscriber }
