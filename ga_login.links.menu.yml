@@ -1,0 +1,5 @@
+ga_login.configuration_menu:
+  route_name: ga_login.configuration_form
+  title: 'GA login'
+  description: 'Google Authenticator login settings'
+  parent: user.admin_index
