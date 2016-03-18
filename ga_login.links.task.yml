@@ -1,0 +1,6 @@
+ga_login.user_settings_form:
+  title: 'Security'
+  description: 'Enable Two Factor Authentication to add an extra security feature to your account'
+  route_name: ga_login.user_settings_form
+  weight: 9
+  base_route: entity.user.canonical
