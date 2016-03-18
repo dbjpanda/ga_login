@@ -1,0 +1,5 @@
+name: GA Login
+type: module
+description: 'This module enable users to login their accounts using Google Two Factor Authentication' 
+core: 8.x
+package: Other
