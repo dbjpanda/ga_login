@@ -1,0 +1,13 @@
+ga_login.configuration_form:
+  path: '/admin/config/people/ga_login'
+  defaults:
+    _title: 'GA login'
+    _form: '\Drupal\example\Form\ConfigForm'
+  requirements:
+    _permission: 'administer site configuration'
+ga_login.user_setting_form:
+  path: '/user/{user}/ga_login'
+  defaults:
+     _form: '\Drupal\example\Form\SettingForm'
+  requirements:
+    _user_is_logged_in: 'TRUE'
