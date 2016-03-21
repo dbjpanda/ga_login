@@ -2,12 +2,13 @@ ga_login.configuration_form:
   path: '/admin/config/people/ga_login'
   defaults:
     _title: 'GA login'
-    _form: '\Drupal\example\Form\ConfigForm'
+    _form: '\Drupal\ga_login\Form\GaConfigForm'
   requirements:
     _permission: 'administer site configuration'
 ga_login.user_setting_form:
   path: '/user/{user}/ga_login'
   defaults:
-     _form: '\Drupal\example\Form\SettingForm'
+     _title: 'Configure Two Step Authentication'
+     _form: '\Drupal\ga_login\Form\UserSettingForm'
   requirements:
     _user_is_logged_in: 'TRUE'
